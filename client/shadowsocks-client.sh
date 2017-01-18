@@ -63,8 +63,8 @@ stop() {
 }
 
 restart() {
-    start
     stop
+    start
 }
 
 status() {
@@ -89,8 +89,7 @@ case "${1}" in
      stop
      ;;
    'restart')
-     stop
-     start
+     restart
      ;;
    'status')
      status
