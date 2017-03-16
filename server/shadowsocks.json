@@ -1,0 +1,10 @@
+{
+    "server": "0.0.0.0",
+    "local_port": 1081,
+    "port_password": {
+        "1777": "password",
+    },
+    "timeout": 300,
+    "method": "aes-256-cfb"
+}
+
