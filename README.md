@@ -22,6 +22,7 @@ cp server/shadowsocks.service /usr/lib/systemd/system/shadowsocks.service
     "local_port": 1081,
     "port_password": {
         "1777": "password",
+        "1888": "password-2"
     },
     "timeout": 300,
     "method": "aes-256-cfb"
